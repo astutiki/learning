@@ -66,6 +66,8 @@ markers.on("click", function (event) {
 $.getJSON('provinsi.geojson', function (data) {
      markers.addData(data)
 });
+	
+	<!-- Menampilkan Point --> 
     var gis = new L.geoJson(null,{
  style: function (feature) {
       return {
@@ -105,7 +107,7 @@ $.getJSON('provinsi.geojson', function (data) {
   }
   
 });
-	<!-- Menampilkan Point --> 
+	
 		
 $.getJSON('gis.geojson', function (data) {
      gis.addData(data)
@@ -115,7 +117,7 @@ $.getJSON('gis.geojson', function (data) {
 	var jalan = new L.geoJson(null,{
  style: function (feature) {
       return {
-        color: "#FF3192",
+        color: "#FF4500",
         weight: 3,
         opacity: 1
       };
@@ -160,7 +162,7 @@ $.getJSON('jalan.geojson', function (data) {
          var map = L.map('map', {
 		center: [-3, 120],
 		zoom: 5,
-		layers: [streets, markers, gis]
+		layers: [streets, markers, gis, jalan]
 	});
 	
 	var baseLayers = {
