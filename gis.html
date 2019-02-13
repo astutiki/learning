@@ -104,7 +104,9 @@ $.getJSON('provinsi.geojson', function (data) {
     });
   }
   
-});	    
+});
+	<!-- Menampilkan Point --> 
+		
 $.getJSON('gis.geojson', function (data) {
      gis.addData(data)
 });	
@@ -153,7 +155,7 @@ $.getJSON('jalan.geojson', function (data) {
      jalan.addData(data)
 });
 	
-	
+	<!-- databasemap -->
 		
          var map = L.map('map', {
 		center: [-3, 120],
@@ -165,12 +167,13 @@ $.getJSON('jalan.geojson', function (data) {
 		"Grayscale ESRI": gray,
 		"Grayscale Mapbox": grayscale,
 		"Streets Mapbox": streets,
-    "Satellites Mapbox": satellites,
+                "Satellites Mapbox": satellites,
 	};
     
     var overlays = {
 	    "Batas Provinsi": markers,
 	    "data": gis,
+	    "data1": jalan,
 	};
     L.control.layers(baseLayers,overlays,{}, {collapsed: true}).addTo(map);
 	L.control.scale().addTo(map);
