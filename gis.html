@@ -73,7 +73,7 @@ $.getJSON('provinsi.geojson', function (data) {
      markers.addData(data)
 });
 
-    var satker = new L.geoJson(null,{
+    var gis = new L.geoJson(null,{
  style: function (feature) {
       return {
         color: "#FF3192",
@@ -106,20 +106,20 @@ $.getJSON('provinsi.geojson', function (data) {
         }
       },
       mouseout: function (e) {
-        satker.resetStyle(e.target);
+        gis.resetStyle(e.target);
       }
     });
   }
   
 });	    
-$.getJSON('satker.geojson', function (data) {
-     satker.addData(data)
+$.getJSON('gis.geojson', function (data) {
+     gis.addData(data)
 });	
 	
           var map = L.map('map', {
 		center: [-3, 120],
 		zoom: 5,
-		layers: [streets, markers, satker]
+		layers: [streets, markers, gis]
 	});
 	
 	
@@ -133,7 +133,7 @@ $.getJSON('satker.geojson', function (data) {
     
     var overlays = {
 	    "Batas Provinsi": markers,
-	    "Lokasi Satuan Kerja Kementerian PUPR": satker,
+	    "Kementerian PUPR": gis,
 	};
     L.control.layers(baseLayers,overlays,{}, {collapsed: true}).addTo(map);
 	L.control.scale().addTo(map);
