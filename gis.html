@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
     
-	<!-- Load Esri Leaflet from CDN -->
+    <!-- Load Esri Leaflet from CDN -->
     <script src="https://unpkg.com/esri-leaflet@2.2.3/dist/esri-leaflet.js"
     integrity="sha512-YZ6b5bXRVwipfqul5krehD9qlbJzc6KOGXYsDjU9HHXW2gK57xmWl2gU6nAegiErAqFXhygKIsWPKbjLPXVb2g=="
     crossorigin=""></script>
@@ -91,7 +91,7 @@ $.getJSON('provinsi.geojson', function (data) {
         var layer = e.target;
         layer.setStyle({
           weight: 3,
-          color: "#00FFFF",
+          color: "#FFFFFF",
           opacity: 1
         });
         if (!L.Browser.ie && !L.Browser.opera) {
@@ -109,9 +109,9 @@ $.getJSON('gis.geojson', function (data) {
      gis.addData(data)
 });	
 	
-          var map = L.map('map', {
+         var map = L.map('map', {
 		center: [-3, 120],
-		zoom: 5,
+		zoom: 10,
 		layers: [streets, markers, gis]
 	});
 	
@@ -124,7 +124,7 @@ $.getJSON('gis.geojson', function (data) {
     
     var overlays = {
 	    "Batas Provinsi": markers,
-	    "Kementerian PUPR": gis,
+	    "data": gis,
 	};
     L.control.layers(baseLayers,overlays,{}, {collapsed: true}).addTo(map);
 	L.control.scale().addTo(map);
@@ -136,11 +136,11 @@ $.getJSON('gis.geojson', function (data) {
 }).addTo(map);
 		
 	
-		 var searchControl = L.esri.Geocoding.geosearch().addTo(map);
+  var searchControl = L.esri.Geocoding.geosearch().addTo(map);
   var results = L.layerGroup().addTo(map);
   searchControl.on('results', function(data){
-    results.clearLayers();
-    for (var i = data.results.length - 1; i >= 0; i--) {
+  results.clearLayers();
+  for (var i = data.results.length - 1; i >= 0; i--) {
       results.addLayer(L.marker(data.results[i].latlng));
     }
   }); 
