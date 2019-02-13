@@ -1,31 +1,3 @@
-
-Skip to content
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @astutiki
-
-0
-0
-
-    0
-
-geo2004/satker_viewer
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
-satker_viewer/
-or cancel
-Indent mode
-Indent size
-Line wrap mode
 1
 
 {
@@ -226,23 +198,4 @@ Line wrap mode
 
 { "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH III PROVINSI KALTENG", "address": "JL. TJILIK RIWUT KM.3,5 NO. 14 PALANGKA RAYA", "No": 29, "kddept": 33, "kdsatker": 4498639, "kdlokasi": 14, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "05363242727", "atasan": "KEMENTRIAN PEKERJAAN UMUM DAN PERUMAHAN RAKYAT", "atlas": "BALAI BESAR PALAKSANAAN JALAN WILAYAH XI", "korwil": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PROVINSI KALIMANTAN TENGAH", "kasatker": "Ir.TEDDY RAJADHY, MT", "nipkasatke": "196504251994031009", "hpkasatker": "0811520387" }, "geometry": { "type": "Point", "coordinates": [ 113.9210367, -2.2073172 ] } },
 
-@astutiki
-Propose file change
-Commit summary
-Optional extended description
 
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Press h to open a hovercard with more details.
