@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 	<title>PERCOBAAN</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +21,7 @@
     integrity="sha512-zdT4Pc2tIrc6uoYly2Wp8jh6EPEWaveqqD3sT0lf5yei19BC1WulGuh5CesB0ldBKZieKGD7Qyf/G0jdSe016A=="
     crossorigin=""></script>
  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.66.0/dist/L.Control.Locate.min.css" />
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.66.0/dist/L.Control.Locate.min.js" charset="utf-8"></script>
@@ -34,14 +33,11 @@
     body { margin:0; padding:0; }
     #map { position: absolute; top:0; bottom:0; right:0; left:0; }
   </style>
-
-	
 </head>
+	
 <body>
-
 <div id="map"></div>
 <script>
-	
 	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -56,8 +52,6 @@
 		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets'});
         satellites  = L.tileLayer(mbUrl, {id: 'mapbox.satellite'});
  
-
-
 var markers = new L.geoJson(null,{
     pointToLayer: function (feature, latlng) {
         return L.marker(latlng, {})
@@ -72,7 +66,6 @@ markers.on("click", function (event) {
 $.getJSON('provinsi.geojson', function (data) {
      markers.addData(data)
 });
-
     var gis = new L.geoJson(null,{
  style: function (feature) {
       return {
@@ -122,9 +115,7 @@ $.getJSON('gis.geojson', function (data) {
 		layers: [streets, markers, gis]
 	});
 	
-	
-
-    	var baseLayers = {
+	var baseLayers = {
 		"Grayscale ESRI": gray,
 		"Grayscale Mapbox": grayscale,
 		"Streets Mapbox": streets,
