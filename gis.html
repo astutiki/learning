@@ -1,8 +1,10 @@
+
 <html>
 <head>
   <title>A Leaflet map!</title>
   <link rel="stylesheet" href="./Leaflet-1.0.3/leaflet.css"/>
   <script src="./Leaflet-1.0.3/leaflet.js"></script>
+    <script src="jquery-2.1.1.min.js"></script> 
   <style>
     #map{ height: 100% }
   </style>
@@ -24,23 +26,13 @@
       minZoom: 9
     }).addTo(map);
 
-    		
-// base map
-L.tileLayer('http://tiles.mapc.org/basemap/{z}/{x}/{y}.png',
-{
-  attribution: 'Tiles by <a href="http://geojson.io/#map=4/-16.38/102.66">MAPC</a>,
-    Data by <a href="http://geojson.io/#map=4/-16.38/102.66">MassGIS</a>',
-  maxZoom: 17,
-  minZoom: 9
-}).addTo(map);
-
-// bike lanes
-L.tileLayer('http://tiles.mapc.org/trailmap-onroad/{z}/{x}/{y}.png',
-{
-  maxZoom: 17,
-  minZoom: 9
-}).addTo(map); 
-		
-</script>
+  // load GeoJSON from an external file
+  $.getJSON("rodents.geojson",function(data){
+    // add GeoJSON layer to the map once the file is loaded
+    L.geoJson(data).addTo(map);
+  });
+ 
+  </script>
 </body>
 </html>
+	
