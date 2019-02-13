@@ -1,0 +1,248 @@
+
+Skip to content
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @astutiki
+
+0
+0
+
+    0
+
+geo2004/satker_viewer
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
+satker_viewer/
+or cancel
+Indent mode
+Indent size
+Line wrap mode
+1
+
+{
+
+2
+
+"type": "FeatureCollection",
+
+3
+
+"name": "satker",
+
+4
+
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+5
+
+"features": [
+
+6
+
+{ "type": "Feature", "properties": { "NAME": "DINAS BINA MARGA DAN TATA RUANG PROVINSI BANTEN", "address": "Jl. K.H. Abdul Fatah Hasan No.25", "No": 109, "kddept": 33, "kdsatker": 4299030, "kdlokasi": 29, "kdkabkota": 53, "kdjnssat": 4, "notelpon": "02547913132", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA DINAS PEKERJAAN UMUM DAN PENATAAN RUANG", "korwil": "BALAI BESAR PELAKSANA JALAN NASIONAL VI JAKARTA", "kasatker": "Ir. HELMY NUDDIN ZEIN", "nipkasatke": "196406122001121002", "hpkasatker": "0818202045" }, "geometry": { "type": "Point", "coordinates": [ 106.171455, -6.122578 ] } },
+
+7
+
+{ "type": "Feature", "properties": { "NAME": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PROVINSI KEPULAUAN BANGKA BELITUNG", "address": "JALAN PULAU BANGKA KOMPLEK PERKANTORAN GUBERNUR BANGKA BELITUNG", "No": 111, "kddept": 33, "kdsatker": 4309036, "kdlokasi": 30, "kdkabkota": 51, "kdjnssat": 4, "notelpon": "0", "atasan": "-", "atlas": "-", "korwil": "-", "kasatker": "YOPI WIJAYA,ST.,MM", "nipkasatke": "197710172002121004", "hpkasatker": "000" }, "geometry": { "type": "Point", "coordinates": [ 106.1578988, -2.1531888 ] } },
+
+8
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI KALTIM", "address": "Kantor Dinas Pekerjaan Umum Prov. Kaltim Gedung C Lantai I Jl. Tengkawang No. 1 Lok Bahu Samarinda", "No": 112, "kddept": 33, "kdsatker": 4498641, "kdlokasi": 16, "kdkabkota": 51, "kdjnssat": 1, "notelpon": "0541274864", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA BALAI PELAKSANAAN JALAN NASIONAL XII BALIKPAPAN", "korwil": "KEPALA DINAS PEKERJAAN UMUM", "kasatker": "TOTOK HASTO WIBOWO, ST. MT", "nipkasatke": "197312142002121003", "hpkasatker": "082221560006" }, "geometry": { "type": "Point", "coordinates": [ 117.114391, -0.5017644 ] } },
+
+9
+
+{ "type": "Feature", "properties": { "NAME": "DINAS PEKERJAAN UMUM, PERUMAHAN DAN ENERGI SUMBER DAYA MINERAL PROVINSI D.I. YOGYAKARTA", "address": "Jl. Kyai Mojo 70 D Yogyakarta", "No": 113, "kddept": 33, "kdsatker": 4049029, "kdlokasi": 4, "kdkabkota": 51, "kdjnssat": 4, "notelpon": "0274563089", "atasan": "Hananto", "atlas": "Hananto", "korwil": null, "kasatker": "Harwanta, ST", "nipkasatke": "196106201990031004", "hpkasatker": "08121569732" }, "geometry": { "type": "Point", "coordinates": [ 110.3541653, -7.7817664 ] } },
+
+10
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN DAN JEMBATAN NASIONAL PROVINSI GORONTALO", "address": "Alamat : Jl. Tinaloga Ds. Permata Kec. Tilong Kabila Kab. Bone Bolango", "No": 114, "kddept": 33, "kdsatker": 4487531, "kdlokasi": 31, "kdkabkota": 4, "kdjnssat": 2, "notelpon": "04358591330", "atasan": "KASATKER P2JN PROVINSI GORONTALO", "atlas": "BALAI PELAKSANA JALAN NASIONAL XV MANADO", "korwil": "DINAS PEKERJAAN UMUM DAN PERUMAHAN RAKYAT PROVINSI GORONTALO", "kasatker": "Ir. Francisco Mario Tambajong", "nipkasatke": "196210061995021001", "hpkasatker": "00000000000" }, "geometry": { "type": "Point", "coordinates": [ 123.0985928, 0.5773452 ] } },
+
+11
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI SULSEL", "address": "Jalan Mesjid Raya No.72", "No": 115, "kddept": 33, "kdsatker": 4498668, "kdlokasi": 19, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "00000", "atasan": "-", "atlas": "-", "korwil": "-", "kasatker": "Sutopo, ST", "nipkasatke": "196907051997031005", "hpkasatker": "-" }, "geometry": { "type": "Point", "coordinates": [ 106.7221973, -6.2490694 ] } },
+
+12
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI RIAU", "address": "JL. SOEKARNO HATTA NO. 41 D PEKANBARU", "No": 116, "kddept": 33, "kdsatker": 4485318, "kdlokasi": 9, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "07617875842", "atasan": "-", "atlas": "-", "korwil": "-", "kasatker": "DARMAWI, ST. MT", "nipkasatke": "197502202005021002", "hpkasatker": "-" }, "geometry": { "type": "Point", "coordinates": [ 101.4196, 0.4441893 ] } },
+
+13
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI SULAWESI BARAT", "address": "JALAN ABD. WAHAB ASAZI NO. 17 MAUJU", "No": 117, "kddept": 33, "kdsatker": 4477060, "kdlokasi": 34, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "04262323391", "atasan": "BALAI XIII MAKASSAR", "atlas": "BALAI XIII MAKASSAR", "korwil": "BALAI XIII MAKASSAR", "kasatker": "ARIFIN TAHIR, ST", "nipkasatke": "196905282006041012", "hpkasatker": "085242528333" }, "geometry": { "type": "Point", "coordinates": [ 118.8893365, -2.6744055 ] } },
+
+14
+
+{ "type": "Feature", "properties": { "NAME": "DINAS BINA MARGA PROV. JAWA BARAT", "address": "Jl. Laswi No 1 Bandung", "No": 118, "kddept": 33, "kdsatker": 4029515, "kdlokasi": 2, "kdkabkota": 51, "kdjnssat": 4, "notelpon": "0227275421", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Dinas Bina Marga dan Penataan Ruang Provinsi Jawa Barat", "korwil": "Kepala BBPJN VI", "kasatker": "Ir. Agus Hendrarto, MM", "nipkasatke": "196204191989031004", "hpkasatker": "0227275421" }, "geometry": { "type": "Point", "coordinates": [ 107.6309885, -6.9172942 ] } },
+
+15
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH III PROVINSI SULUT (SANGIHE TALAUD)", "address": "Jalan Baru Tona Tahuna", "No": 9, "kddept": 33, "kdsatker": 4498660, "kdlokasi": 17, "kdkabkota": 9, "kdjnssat": 5, "notelpon": "00", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Balai Pelaksanaan Jalan Nasional XV Manado", "korwil": null, "kasatker": "Ir. Robert E. Sihotang, M. Eng. Sc", "nipkasatke": "196903311996031001", "hpkasatker": "0811898201" }, "geometry": { "type": "Point", "coordinates": [ 125.5107002, 3.6021241 ] } },
+
+16
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH III PROVINSI NTB", "address": "JALAN LINTAS BIMA SUMBAWA. DESA PENAPALI, KEC. WOHA. KABUPATEN BIMA", "No": 12, "kddept": 33, "kdsatker": 4498652, "kdlokasi": 23, "kdkabkota": 52, "kdjnssat": 5, "notelpon": "0374647001", "atasan": "BALAI PELAKSANAN JALAN NASIONAL WILAYAH IX", "atlas": "BALAI PELAKSANAN JALAN NASIONAL WILAYAH IX", "korwil": "SUB. DIREKTORAT PELAKSANAAN WILAYAH IIC DITJEN BINA MARGA", "kasatker": "SULAIMAN, ST", "nipkasatke": "196012311986021085", "hpkasatker": "085205117222" }, "geometry": { "type": "Point", "coordinates": [ 118.672822, -8.5603907 ] } },
+
+17
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI SUMSEL", "address": "Jl. Kasnariansyah No. 14 KM. 4,5 Palembang", "No": 13, "kddept": 33, "kdsatker": 4498591, "kdlokasi": 11, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0711414160", "atasan": "KEPALA BALAI BESAR PELAKSANAAN JALAN NASIONAL V", "atlas": "KEPALA BALAI BESAR PELAKSANAAN JALAN NASIONAL V", "korwil": "KEPALA BALAI BESAR PELAKSANAAN JALAN NASIONAL V", "kasatker": "IR. RUSMAN, MM", "nipkasatke": "196104151989031006", "hpkasatker": "081367901888" }, "geometry": { "type": "Point", "coordinates": [ 104.734561, -2.9587204 ] } },
+
+18
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI LAMPUNG", "address": "JL. WR. MONGINSIDI N0. 220", "No": 16, "kddept": 33, "kdsatker": 4485349, "kdlokasi": 12, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "021000000", "atasan": "DIRJEN BINA MARGA", "atlas": "KEPALA BBPJN V PALEMBANG", "korwil": "KEPALA BBPJN V PALEMBANG", "kasatker": "Azwar Edie, ST.MT.", "nipkasatke": "197301081998031007", "hpkasatker": "123456" }, "geometry": { "type": "Point", "coordinates": [ 105.257355, -5.4389002 ] } },
+
+19
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROPINSI JAWA TENGAH", "address": "JL. MURBEI SUMURBOTO, BANYUMANIK, SEMARANG", "No": 17, "kddept": 33, "kdsatker": 4474981, "kdlokasi": 3, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0247475859", "atasan": "DIREKTORAT JENDERAL BINA MARGA", "atlas": "BALAI BESAR PELAKSANAAN JALAN NASIONAL VII SEMARANG", "korwil": null, "kasatker": "SYINTA FEBRIA SYAMSIAH, ST, MT", "nipkasatke": "198002112005022001", "hpkasatker": "000000000000000" }, "geometry": { "type": "Point", "coordinates": [ 110.4163977, -7.0583583 ] } },
+
+20
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI SULTENG", "address": "Jalan Towua No.85 Palu", "No": 18, "kddept": 33, "kdsatker": 4498664, "kdlokasi": 18, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0451483229", "atasan": "DIRJEN BINA MARGA", "atlas": "KEPALA BALAI", "korwil": "BALAI PELAKSANAAN JALAN NASIONAL XIV PALU", "kasatker": "IBNU KURNIAWAN, ST.", "nipkasatke": "197907072005021001", "hpkasatker": "0000000000000" }, "geometry": { "type": "Point", "coordinates": [ 119.8825173, -0.9270334 ] } },
+
+21
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI SUMATERA BARAT", "address": "JALAN KHATIB SULAIMAN NO. 9", "No": 120, "kddept": 33, "kdsatker": 4498579, "kdlokasi": 8, "kdkabkota": 55, "kdjnssat": 5, "notelpon": "075140250", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA BALAI PELAKSANAAN JALAN NASIONAL III", "korwil": "KEPALA DINAS PRASARANA JALAN TATA RUANG DAN PERMUKIMAN", "kasatker": "FERRY SUTIMARJAYA, ST, MT", "nipkasatke": "197309131998031008", "hpkasatker": "081" }, "geometry": { "type": "Point", "coordinates": [ 100.3612933, -0.9231993 ] } },
+
+22
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI KALSEL", "address": "Jl. Yos Sdarso No. 13B Banjarmasin", "No": 2, "kddept": 33, "kdsatker": 4498644, "kdlokasi": 15, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "05114423364", "atasan": "BALAI BESAR PELAKSANAAN JALAN NASIONAL XI", "atlas": ".BALAI BESAR PELAKSANAAN JALAN NASIONAL XI", "korwil": null, "kasatker": "AHSAN NOOR, ST", "nipkasatke": "196202101987031013", "hpkasatker": "0511" }, "geometry": { "type": "Point", "coordinates": [ 114.5669418, -3.3259529 ] } },
+
+23
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI JABAR", "address": "JL. A. H. NASUTION NO. 308 A, UJUNGBERUNG BANDUNG", "No": 123, "kddept": 33, "kdsatker": 4471662, "kdlokasi": 2, "kdkabkota": 51, "kdjnssat": 1, "notelpon": "0227802715", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA BALAI", "korwil": "KEPALA DINAS", "kasatker": "Indra Cahya Kusuma, ST. MT", "nipkasatke": "197605242005021003", "hpkasatker": "08159875949" }, "geometry": { "type": "Point", "coordinates": [ 107.7152109, -6.9322414 ] } },
+
+24
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH PROVINSI GORONTALO", "address": "Jl. Tinaloga Desa Permata Kab. Bone Bolango", "No": 3, "kddept": 33, "kdsatker": 4498662, "kdlokasi": 31, "kdkabkota": 51, "kdjnssat": 2, "notelpon": "0435823900", "atasan": "Dirjen Bina Marga", "atlas": "Balai Pelaksanaan Jalan Nasional Wil. XI Manado", "korwil": "Dinas Pekerjaan Umum Provinsi Gorontalo", "kasatker": "Ir. William TG. Kereh, MT", "nipkasatke": "196411191997031002", "hpkasatker": "0435823900" }, "geometry": { "type": "Point", "coordinates": [ 123.090573, 0.5726839 ] } },
+
+25
+
+{ "type": "Feature", "properties": { "NAME": "DINAS BINA MARGA PROV. JAWA TIMUR", "address": "Jl. Raya Waru No. 20 Sidoarjo", "No": 124, "kddept": 33, "kdsatker": 4059698, "kdlokasi": 5, "kdkabkota": 3, "kdjnssat": 4, "notelpon": "0318532414", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Dinas Pekerjaan Umum Bina Marga Prov. Jatim", "korwil": "Kepala Balai Besar Pelaksanaan Jalan Nasional V", "kasatker": "Syamsul Hadi Wibowo, ST, MT", "nipkasatke": "197002231997031003", "hpkasatker": "08123448059" }, "geometry": { "type": "Point", "coordinates": [ 112.7291205, -7.3619114 ] } },
+
+26
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI BANTEN", "address": "Jl. Raya Jakarta km 4 KP. Baru Pakupatan Serang", "No": 4, "kddept": 33, "kdsatker": 4498604, "kdlokasi": 29, "kdkabkota": 53, "kdjnssat": 5, "notelpon": "0254280540", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Balai Besar Pelaksanaan Jalan Nasional VI", "korwil": "Balai Besar Pelaksanaan Jalan Nasional VI", "kasatker": "Permana Adi Santoso, ST.,M.AP.", "nipkasatke": "196511171994031004", "hpkasatker": "00000" }, "geometry": { "type": "Point", "coordinates": [ 106.210471, -6.1043931 ] } },
+
+27
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN METROPOLITAN PALEMBANG", "address": "Jalan Bukit Kenten No.31 B Palembang 30114", "No": 125, "kddept": 33, "kdsatker": 4498592, "kdlokasi": 11, "kdkabkota": 51, "kdjnssat": 1, "notelpon": "07115626161", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Balai Besar Pelaksanaan Jalan Nasional V", "korwil": "Kepala Balai Besar Pelaksanaan Jalan Nasional V", "kasatker": "Yudian Budi Krishna, ST, M.Si", "nipkasatke": "197108231997031002", "hpkasatker": "081512345678" }, "geometry": { "type": "Point", "coordinates": [ 104.773137, -2.9541597 ] } },
+
+28
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH III PROVINSI MALUKU", "address": "Jln.Ir. M. Putuhena, Wailela - Ambon", "No": 5, "kddept": 33, "kdsatker": 4498676, "kdlokasi": 21, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "09113824253", "atasan": "Direktorat Jenderal Bina Marga", "atlas": "Balai Pelaksanaan Jalan Nasional Wilayah IX Maluku", "korwil": "Dinas Pekerjan Umum dan Perumahan Rakyat Propinsi Maluku", "kasatker": "ADRIAN LAUKON ST.M.MT", "nipkasatke": "196207211988021001", "hpkasatker": "08114701978" }, "geometry": { "type": "Point", "coordinates": [ 128.1839956, -3.6577188 ] } },
+
+29
+
+{ "type": "Feature", "properties": { "NAME": "BALAI PELAKSANAAN JALAN NASIONAL III (SUMBAR, BENGKULU) DI PADANG", "address": "JL. JATI NO. 109 PADANG", "No": 6, "kddept": 33, "kdsatker": 4447931, "kdlokasi": 8, "kdkabkota": 55, "kdjnssat": 1, "notelpon": "075134334", "atasan": "Dirjen Bina Marga", "atlas": "Dirjen Bina Marga", "korwil": "Direktur", "kasatker": "Ir. H. Aidil Fiqri, MT", "nipkasatke": "19640212199104100", "hpkasatker": "081273121001" }, "geometry": { "type": "Point", "coordinates": [ 100.3662547, -0.9324969 ] } },
+
+30
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI SUMATERA BARAT", "address": "Jl. Rasuna Said No.85 A Padang", "No": 127, "kddept": 33, "kdsatker": 4485302, "kdlokasi": 8, "kdkabkota": 55, "kdjnssat": 5, "notelpon": "07517051556", "atasan": "Kepala Balai Pelaksanaan Jalan Nasional III", "atlas": "Kepala Balai Pelaksanaan Jalan Nasional III", "korwil": "Kepala Balai Pelaksanaan Jalan Nasional III", "kasatker": "Endro Kusumojoyo, ST.MT", "nipkasatke": "197305042003121006", "hpkasatker": "-" }, "geometry": { "type": "Point", "coordinates": [ 100.3610617, -0.9297501 ] } },
+
+31
+
+{ "type": "Feature", "properties": { "NAME": "DIREKTORAT PENGEMBANGAN JARINGAN JALAN", "address": "Jl. Pattimura No.20 Kebayoran baru Jakarta Selatan 12110", "No": 7, "kddept": 33, "kdsatker": 4497035, "kdlokasi": 1, "kdkabkota": 54, "kdjnssat": 1, "notelpon": "0217253358", "atasan": "DIREKTORAT JENDERAL BINA MARGA", "atlas": "DIREKTORAT JENDERAL BINA MARGA", "korwil": "DIREKTORAT JENDERAL BINA MARGA", "kasatker": "Ir. Rachman Arief Dienaputra,M.Eng", "nipkasatke": "196606271996031001", "hpkasatker": "0217253358" }, "geometry": { "type": "Point", "coordinates": [ 106.8008284, -6.2363976 ] } },
+
+32
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI JABAR", "address": "Jalan A. H Nasution No. 308 A Ujungberung - Bandung", "No": 19, "kddept": 33, "kdsatker": 4498606, "kdlokasi": 2, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "08112310021", "atasan": "Direktur Jenderal Bina Marga", "atlas": "Kepala Balai Besar Pelaksanaan Jalan Nasional IV", "korwil": "Kepala Dinas", "kasatker": "Wahyu Budi Wiyono, ST, M.Sc.", "nipkasatke": "197807162005021001", "hpkasatker": "08112310021" }, "geometry": { "type": "Point", "coordinates": [ 107.7152109, -6.9322414 ] } },
+
+33
+
+{ "type": "Feature", "properties": { "NAME": "BALAI BESAR PELAKSANAAN JALAN NASIONAL XVIII JAYAPURA", "address": "KOMPLEKS BINA MARGA TANAH HITAM, JL. ABEPANTAI-ABEPURA,JAYAPURA - PAPUA", "No": 20, "kddept": 33, "kdsatker": 4448013, "kdlokasi": 25, "kdkabkota": 51, "kdjnssat": 1, "notelpon": "0967581383", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "SEKRETARIS DITJEN BM DAN PARA DIREKTUR DI LINGK. BINA MARGA", "korwil": "SEKRETARIS DITJEN BM DAN PARA DIREKTUR DI LINGK. BINA MARGA", "kasatker": "Ir. OSMAN HARIANTO, M.MT", "nipkasatke": "196209221991031004", "hpkasatker": "000000000000000" }, "geometry": { "type": "Point", "coordinates": [ 140.6820027, -2.6174802 ] } },
+
+34
+
+{ "type": "Feature", "properties": { "NAME": "Penanganan Mendesak dan Tanggap Darurat", "address": "Jln. Pattimura No.20 Kebayoran Baru Jaksel", "No": 21, "kddept": 33, "kdsatker": 4406932, "kdlokasi": 1, "kdkabkota": 54, "kdjnssat": 1, "notelpon": "72798414", "atasan": "Direktur Preservasi Jalan", "atlas": "Direktur Preservasi Jalan", "korwil": null, "kasatker": "Ir. John Girsang, M.Eng.Sc", "nipkasatke": "196301271990031003", "hpkasatker": "72798414" }, "geometry": { "type": "Point", "coordinates": [ 106.8008284, -6.2363976 ] } },
+
+35
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI SUMATERA UTARA", "address": "Jl. Pembangunan No.14\/16 Medan", "No": 22, "kddept": 33, "kdsatker": 4471942, "kdlokasi": 7, "kdkabkota": 51, "kdjnssat": 6, "notelpon": "0618213107", "atasan": "Balai Besar Pelaksanaan Jalan Nasional II", "atlas": "Balai Besar Pelaksanaan Jalan Nasional II", "korwil": "Direktorat Preservasi", "kasatker": "Ir. Juara M. Siahaan", "nipkasatke": "196307171996031001", "hpkasatker": "081234568801" }, "geometry": { "type": "Point", "coordinates": [ 98.646901, 3.609922 ] } },
+
+36
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI BABEL", "address": "Jl. Manunggal No 5a Desa Beluluk Kec. Bangka Tengah Kota Pangkalpinang", "No": 23, "kddept": 33, "kdsatker": 4498593, "kdlokasi": 30, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "07174145400", "atasan": "Kepala Balai Besar BPJN V Palembang", "atlas": "Kepala Balai Besar BPJN V Palembang", "korwil": "Dinas Pekerjaan Umum Kepulauan Babel", "kasatker": "Odra Pandipa Anwar, ST,MT", "nipkasatke": "196410082007011023", "hpkasatker": "082188810001" }, "geometry": { "type": "Point", "coordinates": [ 106.1390898, -2.1733941 ] } },
+
+37
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI KALIMANTAN BARAT", "address": "JALAN Dr. RUBINI NO.2, PONTIANAK - 78121", "No": 24, "kddept": 33, "kdsatker": 4498632, "kdlokasi": 13, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0561762282", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA BALAI BESAR PELAKSANAAN JALAN NASIONAL XI BANJARMASIN", "korwil": "KEPALA DINAS", "kasatker": "BUJANG MARTIHAR, ST,MT", "nipkasatke": "196303031988031019", "hpkasatker": "0561762282" }, "geometry": { "type": "Point", "coordinates": [ 109.3349776, -0.0442463 ] } },
+
+38
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL KOTA METROPOLITAN JAKARTA", "address": "JL. TB. SIMATUPANG NO.1A PASAR REBO JAKARTA TIMUR", "No": 25, "kddept": 33, "kdsatker": 4495421, "kdlokasi": 1, "kdkabkota": 55, "kdjnssat": 5, "notelpon": "0218415078", "atasan": "DIREKTORAT JENDERAL BINA MARGA", "atlas": "BALAI BESAR PELAKSANAAN JALAN NASIONAL VI", "korwil": "BALAI BESAR PELAKSANAAN JALAN NASIONAL VI", "kasatker": "RIEN MARLIA, ST, MT", "nipkasatke": "197203191997032003", "hpkasatker": "0218415078" }, "geometry": { "type": "Point", "coordinates": [ 106.8559674, -6.3026964 ] } },
+
+39
+
+{ "type": "Feature", "properties": { "NAME": "SKPD Dinas Pekerjaan Umum Prov. Kalsel", "address": "Jalan Dharma Praja No.1 Kawasan Perkantoran Pemerintah Provinsi Kalimantan Selatan Banjarbaru", "No": 26, "kddept": 33, "kdsatker": 4159034, "kdlokasi": 15, "kdkabkota": 52, "kdjnssat": 4, "notelpon": "05116749231", "atasan": "Kepala Dinas Pekerjaan Umum Prov. Kalsel", "atlas": "Kepala Dinas Pekerjaan Umum Prov. Kalsel", "korwil": "-", "kasatker": "Ir. Muhammad Aswan, MT", "nipkasatke": "196203021994021001", "hpkasatker": "0811514076" }, "geometry": { "type": "Point", "coordinates": [ 114.8266885, -3.4847033 ] } },
+
+40
+
+{ "type": "Feature", "properties": { "NAME": "DINAS PERMUKIMAN DAN PRASARANA WILAYAH PROVINSI SULAWESI TENGAH", "address": "JLN. YOJOKODI NO. 03 PALU", "No": 27, "kddept": 33, "kdsatker": 4189215, "kdlokasi": 18, "kdkabkota": 51, "kdjnssat": 4, "notelpon": "0451425850", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "KEPALA DINAS BINA MARGA PROVINSI SULAWESI TENGAH", "korwil": "KEPALA BALAI XIV MAKASSAR", "kasatker": "RAHMUDDIN LOULEMBAH, ST,MM", "nipkasatke": "197009221997031003", "hpkasatker": "081245939709" }, "geometry": { "type": "Point", "coordinates": [ 119.8774499, -0.889497 ] } },
+
+41
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI SULAWESI SELATAN", "address": "JLN. BATARA BIRA NO. 32 MAKASSAR", "No": 28, "kddept": 33, "kdsatker": 4472369, "kdlokasi": 19, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "04114831201", "atasan": "Direktorat Jenderal Bina Marga", "atlas": "Balai Besar Pelaksanaan Jalan Nasional XIII Makassar", "korwil": "Balai Besar Pelaksanaan Jalan Nasional XIII Makassar", "kasatker": "Yudho Dwi Hadiarto, ST., MT", "nipkasatke": "197906072005021001", "hpkasatker": "081223080507" }, "geometry": { "type": "Point", "coordinates": [ 119.5100086, -5.0916762 ] } },
+
+42
+
+{ "type": "Feature", "properties": { "NAME": "MANAJEMEN KEBINAMARGAAN", "address": "Jl. Pattimura No. 20 Kebayoran Baru", "No": 129, "kddept": 33, "kdsatker": 4384661, "kdlokasi": 1, "kdkabkota": 54, "kdjnssat": 1, "notelpon": "02172790265", "atasan": "Reiza Setiawan ST, M.Sc", "atlas": "Ir. Soebagiono, M.Sc (Eng)", "korwil": null, "kasatker": "Rusdiyono, SST., MM", "nipkasatke": "197006261993111001", "hpkasatker": "081318600357" }, "geometry": { "type": "Point", "coordinates": [ 106.8008284, -6.2363976 ] } },
+
+43
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL METROPOLITAN MAKASSAR", "address": "Jalan Abdullah Dg. Sirua (Komp. PDAM - Penjernihan No. 5) Makassar, 90231", "No": 131, "kddept": 33, "kdsatker": 4488275, "kdlokasi": 19, "kdkabkota": 51, "kdjnssat": 1, "notelpon": "0411447690", "atasan": "BBPJN XIII MAKASSAR", "atlas": "BBPJN XIII MAKASSAR", "korwil": null, "kasatker": "Ir. MUHAMMAD AMIN HAMID, MT", "nipkasatke": "196507021997031003", "hpkasatker": "0811464257" }, "geometry": { "type": "Point", "coordinates": [ 119.4492525, -5.1498471 ] } },
+
+44
+
+{ "type": "Feature", "properties": { "NAME": "Balai Pelaksanaan Jalan Nasional I Banda Aceh", "address": "Jalan Jend. Sudirman No. 59 Banda Aceh", "No": 132, "kddept": 33, "kdsatker": 4065136, "kdlokasi": 6, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "46727", "atasan": "Arie Setiadi Moerwanto", "atlas": "Arie Setiadi Moerwanto", "korwil": "Ir. Achmad Subki, MT", "kasatker": "Ir. Achmad Subki, MT", "nipkasatke": "196312291993121001", "hpkasatker": "000000000000" }, "geometry": { "type": "Point", "coordinates": [ 95.3031114, 5.5255604 ] } },
+
+45
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL METROPOLITAN I JAKARTA", "address": "Jalan Jati Padang Poncol No. 38 Pasar Minggu Jakarta Selatan", "No": 134, "kddept": 33, "kdsatker": 4498597, "kdlokasi": 1, "kdkabkota": 54, "kdjnssat": 5, "notelpon": "0217810777", "atasan": "Ir. Atyanto Busono, MT", "atlas": "Ir. Atyanto Busono, MT", "korwil": "BALAI BESAR PELAKSANAAN JALAN NASIONAL VI DKI JAKARTA", "kasatker": "Ali Rachmadi, ST, MT", "nipkasatke": "197409252001121004", "hpkasatker": "081219191995" }, "geometry": { "type": "Point", "coordinates": [ 106.8326215, -6.2957275 ] } },
+
+46
+
+{ "type": "Feature", "properties": { "NAME": "PERENCANAAN DAN PENGAWASAN JALAN NASIONAL PROVINSI KALIMANTAN TIMUR", "address": "JL. TENGKAWANG NO. 1 SAMARINDA", "No": 135, "kddept": 33, "kdsatker": 4485437, "kdlokasi": 16, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0541275996", "atasan": "Ditjen Bina Marga", "atlas": "Balai Pelaksanaan Jalan Nasional XII Balikpapan", "korwil": "Balai Pelaksanaan Jalan Nasional XII Balikpapan", "kasatker": "OKTAVIANO DEWO SP., ST, MT", "nipkasatke": "197510312005021003", "hpkasatker": "081289347951" }, "geometry": { "type": "Point", "coordinates": [ 117.115355, -0.503069 ] } },
+
+47
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH I PROVINSI SULTRA (BARAT)", "address": "Jln. H. LATAMA BUNGGULAWA NO. 11 KENDARI", "No": 136, "kddept": 33, "kdsatker": 4498671, "kdlokasi": 20, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "04013123754", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "Kepala Balai Pelaksanaan Jalan Nasional XIV Palu", "korwil": "-", "kasatker": "Ir. YERMIA ANGKASA BITIKAKA, MT", "nipkasatke": "196604091996031004", "hpkasatker": "0811404000" }, "geometry": { "type": "Point", "coordinates": [ 122.4914447, -3.9686056 ] } },
+
+48
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI SUMBAR", "address": "JALAN S. PARMAN NO. 129 ULAK KARANG - PADANG", "No": 137, "kddept": 33, "kdsatker": 4498580, "kdlokasi": 8, "kdkabkota": 55, "kdjnssat": 5, "notelpon": "0751443231", "atasan": "DIREKTUR JENDERAL BINA MARGA", "atlas": "DIREKTUR BINA PELAKSANA WILAYAH I", "korwil": "KEPALA BALAI PELAKSANAAN JALAN NASIONAL III PADANG", "kasatker": "AGUNG SETYAWAN, ST", "nipkasatke": "196908252001121002", "hpkasatker": "00000000000000" }, "geometry": { "type": "Point", "coordinates": [ 100.3501983, -0.9164751 ] } },
+
+49
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH II PROVINSI LAMPUNG", "address": "JL. RW. MONGINSIDI NO. 220 TELUK BETUNG, BANDAR LAMPUNG", "No": 138, "kddept": 33, "kdsatker": 4498596, "kdlokasi": 12, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "0721", "atasan": "BALAI BESAR PELAKSANAAN JALAN NASIONAL WILAYAH V", "atlas": "BALAI BESAR PELAKSANAAN JALAN NASIONAL WILAYAH V", "korwil": "BALAI BESAR PELAKSANAAN JALAN NASIONAL WILAYAH V", "kasatker": "RYANDRA NARLAN, ST.MT", "nipkasatke": "197009262001121002", "hpkasatker": "0818" }, "geometry": { "type": "Point", "coordinates": [ 105.257355, -5.4389002 ] } },
+
+50
+
+{ "type": "Feature", "properties": { "NAME": "PELAKSANAAN JALAN NASIONAL WILAYAH III PROVINSI KALTENG", "address": "JL. TJILIK RIWUT KM.3,5 NO. 14 PALANGKA RAYA", "No": 29, "kddept": 33, "kdsatker": 4498639, "kdlokasi": 14, "kdkabkota": 51, "kdjnssat": 5, "notelpon": "05363242727", "atasan": "KEMENTRIAN PEKERJAAN UMUM DAN PERUMAHAN RAKYAT", "atlas": "BALAI BESAR PALAKSANAAN JALAN WILAYAH XI", "korwil": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG PROVINSI KALIMANTAN TENGAH", "kasatker": "Ir.TEDDY RAJADHY, MT", "nipkasatke": "196504251994031009", "hpkasatker": "0811520387" }, "geometry": { "type": "Point", "coordinates": [ 113.9210367, -2.2073172 ] } },
+
+@astutiki
+Propose file change
+Commit summary
+Optional extended description
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Press h to open a hovercard with more details.
